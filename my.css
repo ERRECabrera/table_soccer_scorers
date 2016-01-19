@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:400,800);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+.container-fluid {
+  padding: 0;
+}
+
+.page-header, .row {
+  margin: 0;
+}
+
+.page-header {
+  padding-top: 7px;
+  border-bottom: solid 15px antiquewhite;
+  font-family: 'Khula', sans-serif;
+}
+
+#table_js {
+  margin-top: 30px;
+  width: 60%;
+}
+
+.center-block {
+  display: table;
+}
+
+thead {
+  background-color: bisque;
+  color: #B38080;
+}
+
+thead:hover {
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-right: 50px;
+  background-color: rgba(239, 239, 239, 0.55);
+}
+
+footer a {
+  font-family: 'Shadows Into Light', cursive;
+}
